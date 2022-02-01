@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/backGround"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/bus"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Bus"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.For Dhaka City BDT 2.15/km"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.For Dhaka City minumum fare BDT 10tk"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.For Chittagong City BDT 2.10/km"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.For Dhaka City minumum fare BDT 10tk"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/cng"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Cng"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.First 2km BDT 40"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.After First 2km Per km BDT 12"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 2/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/pathao"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Pathao(Bike)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 25"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.Per km BDT 12"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 0.5/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4.Minimum Charge BDT 30"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/pathao"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Pathao(Car)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 50"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.Per km BDT 20"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 2.5/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4.Minimum Charge BDT 100"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/sohoz"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Shohoz(Bike)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 25"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.First 2 km BDT 24"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.After First 2 km Per km BDT 12"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4.Waiting Charge BDT 0.5/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/sohoz"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Shohoz(Car)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 50"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.First 2 km BDT 40"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.After First 2 km Per km BDT 20"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4.Waiting Charge BDT 3/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/obhai"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Obhai(Car)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 100"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.After First 6 km Per km BDT 20"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 0/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/obhai"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Obhai(Bike)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 80"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.After First 2 km Per km BDT 22"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 3/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/obhai"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Obhai(Cng)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Base Fare BDT 40"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.After First 2 km Per km BDT 16"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Waiting Charge BDT 1.5/minute"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_slideshow"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+</ScrollView>

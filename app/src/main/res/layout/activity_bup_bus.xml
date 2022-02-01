@@ -1,0 +1,3218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BupBus">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="15dp">
+
+        <!-- 1st Table Heading -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-1(BUP To Uttara)"
+                android:textColor="@color/ic_launcher_background"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+
+        </TableRow>
+
+        <!-- 1st Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 2nd Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-1(Uttara To BUP )"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 2nd Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="07:00"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="16:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOUSE BUILDING"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:15"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 3rd Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-2(BUP - JFP - KAKRAIL)"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 3rd Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 4th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-2(KAKRAIL - JFP - BUP)"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 4th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <!-- 5th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-3(BUP - MAGHBAZAR - KAKRAIL)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 5th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="14:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 6th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-3(KAKRAIL - MAGHBAZAR - BUP)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 6th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:00"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KAKRAIL"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 7th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-4(BUP - SHAHBAGH)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 7th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 8th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-4(SHAHBAGH - BUP)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 8th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:00"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SHAHBAGH"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:15"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 9th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-5(BUP - KHAMAR BARI MOR)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 9th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 10th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-5(KHAMAR BARI MOR - BUP)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 10th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:15"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="KHAMAR BARI MOR"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:15"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 11th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-6(BUP - ASAD GATE)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 11th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 12th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-6(ASAD GATE - BUP)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 12th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="07:00"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="16:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ASAD GATE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:00"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 13th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-7(BUP - CITY COLLEGE)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 11th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:45"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+
+        <!-- 14th Table Heading -->
+        <TableRow
+            android:background="@color/blueDark"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route-7(CITY COLLEGE - BUP)"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" android:layout_marginEnd="5sp"
+                />
+
+        </TableRow>
+
+        <!-- 12th Table  -->
+        <TableRow
+            android:background="@color/blueDark">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ORIGIN"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="DESTINATION"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="START TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:40"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="06:50"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="17:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CITY COLLEGE"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BUP"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="19:30"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

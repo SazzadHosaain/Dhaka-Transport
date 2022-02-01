@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ULAB_Bus2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="15dp">
+
+        <!-- 1st Table Heading -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="5sp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Sunday - Wednesday"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- 1st Table  -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Campus A"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Permanent Campus"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="09:00 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="09:40 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10:30 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="11:30 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12:15 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="02:40 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="03:15 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="05:45 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+
+        </TableRow>
+
+
+        <!-- 2nd Table Heading -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="5sp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Thursday"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- 2nd Table  -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Campus B"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Permanent Campus"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="09:00 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12:15 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10:30 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="02:15 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="01:15 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="04:30 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <!-- 2nd Table Heading -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="5sp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Friday"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- 2nd Table  -->
+        <TableRow
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Campus A"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="Departure From Permanent Campus"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/backGround">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="08:50 AM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12:40 PM"
+                android:textColor="@android:color/black"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"/>
+
+        <TableRow
+            android:background="@color/white"/>
+
+
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    android:padding="10dp"
+    tools:context=".trainTracking">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tracktrain"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Track Your Train"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+            <View
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="5dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="SMS">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etEnterSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/sendBtn"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:text="Send"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/custom_banner"/>
+
+            <androidx.cardview.widget.CardView
+                android:onClick="expand"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:contentPadding="20dp">
+
+                    <LinearLayout
+                        android:animateLayoutChanges="true"
+                        android:id="@+id/expandLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="How to track Train Location"
+                        android:textColor="@color/colorPrimary"
+                        android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/details"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="(1) Type TR (space) train no/code send to 16318"
+                            android:textColor="@color/black"
+                            android:visibility="gone"
+                            android:textSize="14sp" />
+                        <TextView
+                            android:id="@+id/details2"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="(2) Train Number can be found in Train tickets"
+                            android:textColor="@color/black"
+                            android:visibility="gone"
+                            android:textSize="14sp" />
+                        <TextView
+                            android:id="@+id/details3"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="(3) Charge BDT 4 *VAT, SD and Sc applicable"
+                            android:textColor="@color/black"
+                            android:visibility="gone"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:onClick="expand2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                app:contentPadding="20dp">
+
+                <LinearLayout
+                    android:animateLayoutChanges="true"
+                    android:id="@+id/expandLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="Features"
+                        android:textColor="@color/colorPrimary"
+                        android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/details4"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/features1"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/details5"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/features2"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/details6"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/features3"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/details7"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/features4"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

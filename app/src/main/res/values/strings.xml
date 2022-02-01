@@ -1,0 +1,651 @@
+<resources>
+    <string name="app_name">Dhaka Transport</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BD Transport</string>
+    <string name="nav_header_subtitle">diu@edu.bd.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Manual Calculator</string>
+    <string name="menu_slideshow">Fare Information</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    //routes detail
+    //A
+    <string name="Achim">
+        Gabtoli - Technical - Ansar Camp - Mirpur 1 - Sony Hall
+        - Mirpur 2 - Mirpur 10 - Mirpur 12 - Kalshi - Ecb Chattar
+        - MES - Shewra - Kuril - Basundhara - Nadda - Natun Bazar
+        - Bashtola - Shahjadpur - Uttar Badda - Badda - Maddha Badda
+        - Merul - Rampura Bridge - Banasree - Demra Staff Quater
+    </string>
+    <string name="Agradut">
+        Savar - Hemayetpur - Gabtoli - Technical - Kallyanpur
+        - Shyamoli - Shishu Mela - Agargaon - Zia Udyan - Bijoy Sarani
+        - Jahangir Gate - Mohakhali - Wireless - Gulshan 1 - Badda -
+        Shahjadpur - Bashtola - Natun Bazar
+    </string>
+    <string name="Airport">
+        Fulbaria - Golap Shah Mazer - GPO - Paltan - Press Club -
+        High Court - Motsho Bhaban - Shahbag - Bangla Motor -
+        Karwan Bazar - Farmaget - Jahangir Gate - Mohakhali -
+        Chairman Bari - Shainik Club - Banani - Kakoli - Staff Road -
+        MES - Shewra - Kuril - Khilkhet - Airport - Jasimuddin - Rajlakhsmi -
+        Azampur - House Building - Abdullahpur
+    </string>
+    <string name="Akash">
+        Kodomtoli - Keraniganj - Babu Bazar - Naya Bazar - Golap Shah Mazar -
+        GPO - Paltan - Kakrail - Shantinagar - Malibagh Railgate - Rampura -
+        Merul - Maddha Badda - Badda - Uttar Badda Bazar - Shahbajpur - Bashtola -
+        Natun Bazar - Nadda - Basundhara - Kuril Bishwa Road - Khilkhet - Airport -
+        Jasimuddin - Rajlakshmi - Azampur - House Building - Diabari
+    </string>
+    <string name="Akik">
+        Ansar Camp - Mirpur 1 - Sony Hall
+        - Mirpur 2 - Mirpur 10 - Mirpur 12 - Kalshi - Ecb Chattar
+        - MES - Shewra - Kuril - Basundhara - Nadda - Natun Bazar
+        - Bashtola - Shahjadpur - Uttar Badda
+    </string>
+    <string name="AlMadina">
+        Nandanpark - Zirani Bazar - Bipayl - Nobonnagar - Savar
+        - Hemayetpur - Aminbazar - Gabtoli - Technical - Kallyanpur - Shymoli
+        - Shishu Mela - College Gate - Asad Gate - Khamarbari - Farmgate - Karwan Bazar -
+        Bangla Motor - Shahbag - HHigh Court - Press Club - Paltan - GPO - Gulistan - Motijheel
+        - Kamalpur
+    </string>
+    <string name="AlMakka">
+        Motijheel - Gulistan - GPO - Paltan - Kakrail -
+        Malibagh - Mouchak - Moghbazar - Nabisco - Mohakhali -
+        Chirman Bari - Banani - Kakoli - ECB Chattar - Kalshi -
+        Purobi - Mirpur 10 - Mirpur 2 - Mirpur 1
+    </string>
+    <string name="Alif">
+        Mirpur 14 - Mirpur 13 - Mirpur 10 - Mirpur 2 - Mirpur 1 -
+         Mazar Road - Diabari - Nobaberbag - Tamanna Water Family -
+        Estern Housing - Birulia - Panchaboti - Dhour Beribadh - Ashulia -
+        Zirabo - Nishchintapur - Fantasy Kingdom - Jamgora - Bogabari -
+        Baipyl - EPZ
+    </string>
+    <string name="Alike">
+        Balughat - Signal - CMH - Garison -
+        Adamjee College - Workshop - Jahangir Gate -
+        Farmgate - Bangla MOtor - Shahbag
+    </string>
+    <string name="Anabil">
+        Sign Board - Shonir Akhra - Jatrabari -
+        Sayedabad - Mugdapara - Basabo - Khilgaon -
+        Malibag - Rampura - Merul - Badda - Natun Bazar -
+        Nadda - Kuril - Khilkhet - Airport - House Building -
+        Abdullahpur - Tongi - Gazipur
+    </string>
+    <string name="Ashian">
+        Gulistan - Kazia - Matuial - Konapara -
+        Demra Staff Quarter - Tarabo - Konapara -
+        Borabo - Rupshi - Borpa - Bhulta
+    </string>
+    <string name="Ashirbad">
+        Duaripara - Rupnagar - Shiyal Bari - Proshikha More
+        - Mirpur 2 - Mirpur 1 - Ansar Camp - Technical - Kallyanpur
+        - Shyamoli - Shishu Mela - College Gate - Asad Gate - Dhanmondi 27
+        - Dhanmondi 32 - Kalabagan - City College - New Market -Nilkhet - Azimpur
+    </string>
+    <string name="Ashulia">
+        Nobinanagar - Baipayl - Jamgora - Fantasy kingdom -
+        Zirabo - Ashulia Bazar - Kamarpara - Abdullahpur -
+        House Building - Airport - Kuril - Shewra - MES - Kakoli -
+        Banani - Chairman Bari - Mohakhali - Nabisco - Satrasta
+    </string>
+    <string name="Asmani">
+        Dhour - Adbullahpur - House Building - Azampur -
+        Rajlakhsmi - Jasimuddin - Airport - Khilkhet -
+        Kuril - Jamuna Future Park - Basundhara - Nadda - Natun Bazar
+        - Bashtola - Shahjadpur - Uttar Badda - Badda - Maddha Badda
+        - Merul - Rampura Bridge - Banasree - Demra Staff Quater - Tarabo -
+        Madanpur
+    </string>
+    <string name="Ayat">
+        Chiriyakhana - Sony Cinema Hall - Mirpur 2 - Mirpur 10 -
+        Kazipara - Shewrapara - Taltola - Agargaon - Khamar Bari -
+        Farmgate - Karwan Bazar - Bangla Motor - Mogbazar - Mouchak -
+        MAlibag - Rajarbag - Kamalapur
+    </string>
+    //15
+
+    //B
+    <string name="BRTC">
+
+Gabtoli - Mirpur1 - Mirpur10 - Kazipara - Shewrapara
+- Mohakhali -b kakoli - Banani - Gulshan 2 - Natun Bazar - badda  - Rampura
+
+</string>
+
+    <string name="Bolaka">
+
+Motijhil - Komalapur - Malibag - Moghbazar - Nabisko - Mohakhali - Banani
+- Khilkhet - Airport - Uttara - Tongi - Board Bazar - Gazipur Shib Bari
+
+</string>
+
+    <string name="BasumatiTransport">
+
+Gabtoli - Mirpur 1 - Mirpur 10 -Kalshi - Bisshoroad - Airport - Uttara
+- Abdullahpur - Tongi - Gazipur
+
+</string>
+
+    <string name="BestShatabdi">
+
+Azimpur - Nilkhet - New Market - City Colgge - Kalabagan - Dhanmondi 32 - Dhanmondi 27
+- Khamar Bari - Farmgate -jahangir gate - Mohakhali
+- Chairman Bari - sainik Club - banani - Kakali - Staff Road - MES -Shewra - kuril - khilkhet
+- Airport - jashimuddin - Rajlaksmi - Azampur - house building - Diabari
+
+</string>
+
+    <string name="BestTransport">
+
+Mirpur 10 - Mirpur 14 - kazipara - Sheorapara - Agargaon
+- Farmgate - Shahbagh - Motijhil - Saydabad - jatrabari
+
+</string>
+
+    <string name="BhuiyanParibahan">
+
+japan garden City - Ring Road - Adabor - Shymoli - Shishu mela
+- Agargaon - Zia Uddyan - Bijoy Soroni - Old airport - Jahangir gate
+- Mohakhali - Chairman bari - Sainink road - kakali - Banani- Staff Road
+- MES - Shewra - Kuril - Khilkhet - Airport - Jashimuddin - Rajlakshmi
+- Azampur - house Building - Abdullahpur
+
+</string>
+
+    <string name="Bihanga">
+
+Mirpur 12 - Mirpur 11 - mirpur 10 - Kazipara - Shewrapara
+- Mohakhali - Gulshan 1 - badda - Natun bazar
+
+</string>
+
+    <string name="Bikalpa">
+
+Mirpur 12 - Mirpur 10 - Agargaon - farmgate - Shahbag - Motijhil
+
+</string>
+
+    <string name="Bikash">
+
+Azimpur - Nilkhet - New Market - City Colgge - Kalabagan - Dhanmondi 28
+- Khamar Bari - Farmgate - jahangir gate - Mohakhali - sainik Club - banani
+- kakali - kuril - bishow Road - khilkhet - Airport - Abdullahpur Kamarpur
+
+</string>
+
+    //9
+
+    //c
+    <string name="CBS">
+        Mirpur 14 - Mirpur 10 - Mirpur 2 - Sony Chinema Hall
+        - Mirpur 1 - Ansar Camp - Technical - Gabtoli - Amin Bazar - Hemayetpur- Savar
+    </string>
+    <string name="CMS">
+        Mirpur 14 - Kachukhet - Sainik Club - Kakali - Banani - Mohakhali
+    </string>
+    <string name="Champion">
+        Vashantek - Mirpur 14 - Mirpur 10 - Mirpur 2 - Sony Chinema Hall
+        - Mirpur 1 - Ansar Camp - Technical - Gabtoli
+    </string>
+    <string name="CityLink">
+        Chittagong Road - Sign Road - Matuail - Rayerbag
+        - Shonir Akhra - Jatrabari - Sayedabad - Gulistan -
+        GPO - Paltan - Press Club - High Court - Matsya Bhaban -
+        Shahbag - Bata Signal - Science Lab - City College -
+        Jigatola - Dhanmondi 15 - Star Kabab - Shankar -
+        Mohammadpur - Basila - Ghatar Char
+    </string>
+    //4
+    //D
+    <string name="DLink">
+
+Fulbaria - Chankharpul - Boksi Bazar - Azimpur - Nilkhet - New Market - City College - Kalabagan -
+ Dhanmondi 32 - Dhanmondi 27 - Asad gate - College gate - Shishu Mela - Shyamoli - kallaynapur - Darusalam -
+ Technical - Gabtoli - Amin Bazar - Nibunagar - Hemayatpur Savar - Dhamrai
+
+</string>
+
+    <string name="Deepan">
+
+Tajmahal Road - Shankar - Dhanmondi 15 - Jigatoola - City College - Sceince lab - bata signal - katabon - Shahbag - Matsya Bhaban - Paltan
+
+</string>
+
+    <string name="DeshBangla">
+
+Postogola - Dholaipar - jatrabari - Saydabad - Mughdapara - Bashabo - Khilgaon - Malibagh - Rampura Bazar - Rampura Bridge
+- Merul badda - Uttor Badda - Bashtola - Notun bazar - Nadda - Bashundhara - Jamuna Future park - Kuril - Khilkhet
+- Airport - Jashimuddin - Rajlakshmi - Azampur - House Building - Abdullahpur - Kamarpara
+
+</string>
+
+    <string name="DhakaChaka1">
+
+Police plaza - Gulshan 1 - Notun Bazar
+
+</string>
+
+    <string name="DhakaChaka2">
+
+Banani - Gulshan - Notun Bazar
+
+</string>
+
+    <string name="DhakaMetroService">
+
+Mirpur 1 - kallayanpur - Shyamoli - Asad gate - Sukrabad - kalabagan - Science lab - New market - Nilkhet - Azimpur
+
+</string>
+
+    <string name="Dipon">
+
+Tajmahal Road - Salimullah Road - Jakir Hossen Road - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City College
+- Science Lab - Bata Signal - Shahbag - Matsaya Bhaban - High Court - Press Club - Paltan - baitul Mukaram - Gulistan - Motijhil - Arambagh
+
+</string>
+
+    <string name="Dishari">
+
+Chiriyanka - Mirpur 1 - Ansar Camp - Technical - kallyanpur - Shyamoli - Shishu Mela - College gate - Asad gate - Khamar Bari - farmgate
+- Kawran Bazar - Bangla Motor - Shahbagh - Matsya bhaban - High Court - Press Club - Paltan - GPO - Golap Shah Mazar - Naya Bazar - Babubazar - Keraniganj
+
+
+</string>
+    //8
+    //E
+    <string name="Elite">
+        Agargaon - Taltola - Shewrapara - Kazipara
+        - Mirpur 10 - Mirpur 11 - Purobi - Pallabi
+        - Kalshi - Kuril - Airport - Jasimuddin -
+        Rajlakshmi - Abdullahpur
+    </string>
+    <string name="ETCTransport">
+        Golap Shah Mazar - GPO - Paltan - Press Club - High Court -
+        Matsya Vaban - Shahbag - Bangla Motor - Karwan Bazar - Farmgate -
+        Khamar Bari - Agargaon - Taltola - Shewrapara - Kazipara - Mirpur 10 -
+        Mirpur 11 - Purobi - Pallabi - Mirpur 12
+    </string>
+    <string name="EverestParibahan">
+        Rupnagar - Mirpur 2 - Mirpur 1 - Khamar Bari - Farmagte -
+        Gulistan - Keraniganj
+    </string>
+    //3
+    //f
+    <string name="FirstTen">
+
+Vashantek - Mirpur 14 - Mirpur 10 - Mirpur 2 - Sony Cinema Hall - Mirpur 1 - Ansar camp - Technical - Gabtoli
+
+</string>
+
+    <string name="FTCL1">
+
+Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City Colege - Science lab - bata Signal - Katabon
+- Shahbagh - matsya bhaban - paltan - GPO - gulistan - Sayedabad - Janapath Moor - jatrabari - Shonir Akhra - rayerbagh - matuail - Sign board - Chittagong Road
+
+</string>
+
+    <string name="FTCL2">
+
+Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City Colege - Science lab - bata Signal - Katabon
+- Shahbagh - matsya bhaban - paltan - Gulistan - Motijhil - Arambagh
+
+</string>
+    //3
+    //g
+    <string name="Gazipurparibahan">
+
+Motijhil - paltan - kakrail - Shantinagar - Malibag Moor - Mouchak - Maghbazar - Nabisco
+- Mohakhali - Chairman bari - Sainik Club - kakli - Banani - Staff Road - MES - Shewra
+- Kuril - khilkhet - Airport - Jashimuddin - Rajlakshmi - Azampur - house Building
+- Abdullahpur - Tongi - Station Road - Mill Gate - Board bazar - Gazipur Chourasta - Shib bari
+
+</string>
+
+    <string name="Grameen">
+
+Mirpur 14 - Mirpur 10 - Mirpur 2 - Sony Cinema Hall - Mirpur 1 Ansar camp - Technical - Gabtoli
+
+</string>
+
+    <string name="GulshanDhaka">
+
+Banani - Gulshan 2 - Notun Bazar
+
+</string>
+
+    <string name="GreenDhaka">
+
+Motijhil - Gulistan - GPO - Paltan - Kakrail - Shantinagar - Malibagh railgate - Hazipara
+- Rampura bazar - Rampura Bridge - Merul Badda - Shahjadpur - Bashtola - notun bazar - Nadda bashundhara
+- jamuna Future park - Kuril - khilkhet - Airport - Jashimuddin - Rajlaksmi - Azampur - House Building - Abdullahpur
+
+</string>
+    //4
+    //h
+    <string name="HajiTransport">
+
+Mirpur 12 - Pallabi - Purobi - Mirpur 10 - Kazipara - Shewrapara - Agargaon - Bijoy Soroni - Farmgate - kawran bazar - Bangla Motor - Shahbagh - Matsya Bhaban - High Court - Press Club - Paltan - GPO - Gulistan - Motijhil
+
+</string>
+
+    <string name="Himachal">
+
+Sony Cinema Hall - Mirpur 10 - kazipara - Shewrapara - Mohakhali - Gulshan 1 - Badda - Rampura bazar - Khilgaon
+
+</string>
+
+    <string name="Himalaya">
+
+Madanpur - Jatrabari - Bangladesh bank - Moghbazar - Mohakhali - Tongi
+
+</string>
+    //3
+    //i
+    <string name="Itihash">
+
+Mirpur 14 - Mirpur 10 - Mirpur 2 - Sony Cinema hall - Mirpur Ansar camp - Technical - Gabtoli - Amin Bazar - Hemayetpur - Savar - Nabinagar - Baipayl - Zirani Bazar - Nandan park - Chandra
+
+</string>
+    //1
+    //j
+    <string name="JMSuperParibahan">
+
+Jatrabari - Saydabad - Mughdapara - Bashabo - Khilgaon - Malibagh Rail Gate - Hazipara - Rampura Bazar - Merul - Badda - Uttar Badda - Shahjadpur - Bashtola - Notun Bazar - Nadda - Bashundhara - Jamuna Future park - Kuril - khilkhet - Airport - Jahsimuddin - Rajlakshmi - Azampur - House Buidling - Abdullahpur - Tongi
+
+</string>
+
+    <string name="JabalaNoorParibahan1">
+
+Agargaon - Taltola - Shewrapara - kazipara - Mirpur 10 - Mirpur 11 0- Purobi - Kalshi - Kuril - khilkhet - Airport - Jahsimuddin - Rajlakshmi - Azampur - House Buidling - Abdullahpur
+
+</string>
+
+    <string name="JabalaNoorParibahan2">
+
+Gabtoli - Mirpur 1 - Mirpur 10 - Kalshi - Kuril - Notun Bazar
+
+</string>
+
+    <string name="Janjabil">
+
+Gabtoli - Beribadh Tin rastar Moor - Rayer Bazar - Sikdar Medical - Hazaribagh - Nawabganj - Kamrangirchor - Showari Ghat - Mitford ghat - Babubazar
+
+</string>
+    //4
+    //k
+    <string name="KamalPlusParibahan">
+
+Chittagong Road - Sign Board - Matuail - Rayerbagh - Sonirakhra - Jatrabari - Sayedabad - Gulistan - Chankhar Pul - Bakshi bazar - Azimpur - Nilkhet - New Market - Sceince Lab - City College - Jigatola - Dhanmondi 15 - Star kabab - Songkor - Mohammadpur
+
+</string>
+
+    <string name="Kanak">
+
+Mirpur 1 - Sony Cinema Hall - Mirpur 2 - Mirpur 10 - Mirpur 11 - Purobi - Kalshi - ECB Square - Shewra - Kuril - Khelkhet - Airport - jashimuddin - Rajlakshmi - Azampur - House building - Abduallahpur
+
+</string>
+
+    <string name="Khajababa">
+
+jatrabari - Sayedabad - Gulistan - GPO - Paltan - Press Club - High Court - Matsya Bhaban - Shahbagh - Bangla Motor - Kawran bazar - Farmgate - Khamar bari - Agargaon - taltola - Shewrapara - Kazipara - Mirpur 10 - Mirpur 11 - Purobi - Pallabi - Mirpur 12
+
+</string>
+
+    <string name="kironmalaParibahan">
+
+Chiriyakhana - Mirpur 1 - Sony Cinema Hall - Rupnagar - Birlia - Ashulia - Zirabo - Narshinnghapur - Sura bari - kashmipur - Jurain - Konabari
+
+</string>
+    //4
+    //L
+    <string name="Labbayek">
+
+Savar - Hemayetpur - Amin Bazar - Gabtoli - Technical - Kallyanpur - Shymoli - Shishu Mela - Collge gate - Asad Gate - Khamar bari - Farmgate - Kawran Bazar - Bangla Motor - Moghbazar - Mouchak - Malibagh - Rajarbag - Khilgaon - basabo - Mudghdapara - manik Nagar - Golapbag - Saydabad - Janapath Moor - Jatrabari - Kazla - Shonir Akhra - Rayerbag - Matuail - Sign Board
+
+</string>
+
+    <string name="LalSobuj">
+
+Nandan park - Zirani bazar - Bipayl - Nobinagar - Savar - Hemayetpur - Amin Bazar - Gabtoli - Technical - Kallyanpur - Shaymoli - Shishu Mela - College gate - Asad Gate - Khamarbari - Farmgate - Kawran bazar - Bangla Motor - Shahbagh - High Court - Press Club - Paltan - GPO - Gulisthan - Motijhel
+
+</string>
+
+    <string name="LamsParibahan">
+
+Mirpur 2 - Pallabi - Purobi - Mirpur 11 - Mirpur 1 - Kazipara  - Shewrapara - Taltola - Agargaon - Bijoy Soroni - Farmgate - Kawran bazar - Bangla Motor - Shahbagh - High Court - Press Club - Paltan - Dainik bangla Moor - Motijhil
+
+</string>
+    //3
+    //m
+    <string name="Malancha">
+
+Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City college - Sceince Lab - Bata Signal - katabon - Shahbagh - Matsya Bhaban - High Court - Press Club - Paltan - GPO - Gulistan - Dayaganj - Dhupkhola
+
+</string>
+
+    <string name="ManjilExpress">
+
+Chittagong Road - Sign Board - Matuail - Rayerbag - Sonir Akhra - Jatrabari - Saydabad - Gulistan - GPO - Platan - Kakrail - Malibagh Moor - Mouchak - Moghbazar - Satrasta - Nabisco - Mohakhali - Chairman Bari - Banani - Kakrali - Staff Road - MES - Shewra - Kuril - Khilkhet - Aiport - Jashimuddin - Rajlakshmi - Azampur - House Building - Abdullahpur
+
+</string>
+
+    <string name="MeghlaTransport">
+
+kalabagan - Scence Lab - Bata Signal - Katabon - Shahbag - Matsya Bhababn - High Court - Press Club - Platan - GPO - Gulistan - Saydabad - Jatrabari - Shonir Akhra - Sign Board - Kanchpur - Vulta
+
+</string>
+
+    <string name="Midline">
+
+Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City college - Sceince Lab - Bata Signal - katabon - Shahbagh - Matsya Bhaban - High Court - Press Club - Paltan - GPO - Gulistan - Motijhil - Arambag - kamalapur - Basabo - Khilgaon
+
+</string>
+
+    <string name="MirpurLink">
+
+ECB Square - Purobi - Mirpur 11 - Mirpur 10 - Kazipara - Shewrapara - Agargaon - Khamar Bari - Dhanmondi 27 - Dhanmondi 32 - City College - New Narket - Azimpur
+
+</string>
+
+    <string name="MirpurMission">
+
+Chiriyakhana - Mirpur 1 - Khamar Bari - Farmgate - Press Club - Motijhil
+
+</string>
+
+    <string name="Moitri">
+
+Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City college - Sceince Lab - Bata Signal - katabon - Shahbagh - Matsya Bhaban - High Court - Press Club - Paltan - GPO - Gulistan - Motijhil - Arambagh
+
+</string>
+    //7
+    //n
+    <string name="NewVision">
+
+Chiriyakhana - Mirpur 1 Ansar Camp - Technical - Kallayanpur - Shaymoli - Shishu Mela - College Gate - Asad gate - Khamar Bari - Farm Gate - Kawran Bazar - Bangla Motor - Shahbagh - High Court - Press LCub - Paltan - Gulistan - Motijhil
+
+</string>
+
+    <string name="Nilachal">
+
+Chittagong Road - Sign Board - matuail - Rayerbag - Sonir Akhra - Jatrabari - Saydabad - Gulistan - Chankharpol - Bakshi Bazar - Azimpur - Nilkhet - new Market - Scence lab - City College - Kalabagan - Dhanmondi 32 - Dhanmondi 27 - Asad Gate - College Gate - Shishu Mela - Shaymoli - Kallyanmpur - Darussalam - Technical - Gabtoli - Amin Bazar - Hemayatpur - Savar - Nobinagar - Manikganj - Paturia
+
+</string>
+
+    <string name="Nishorgo">
+
+Mirpur 14 - Mirpur - kazipara - Shawrapara - Taltola - Agargaon - Asad Gate - Shyamoli - Mohammadpur - Shankar - Dhanondi 15 - Jigatola - City College - Sceince lab - Dhaka College - New Market - Nilkhet - Eden College - Azimpur
+
+</string>
+
+    <string name="no7">
+
+Gabtoli - Technical - Kallayanpur - Shyamoli - Shisu Mela - College Gate - Asad Gate - Dganmodni 27 - Dhanmondi 32 - Kalabagan - Sceince lab = Katabon - Shahbag - High Court - Press Club - Paltan - GPO - Gulistan - Shaymoli - Naya Bazar - Ray Saheb Bazar - Sadarghat
+
+</string>
+
+    <string name="No13">
+
+Mohammadpur - Shankar - Dhanmondi 15 - Jigatola - City College - Science Lab - New Market - Nilkhet - Azimpur
+
+</string>
+
+    <string name="No4">
+
+Balughat - CMH - Garrison - Adamjee College - Workshop - Jahangir Gate - Bijoy Soroni - Mohakhali - Gulshan 1 - Gulhan 2 - Notun bazar
+
+</string>
+
+    <string name="No6">
+
+Kamalapur - Motijhil - Gulistan - GPO - Paltan - kakrail - Shantinagar - Maklibagh Moor - Mouchak - Moghbazar - Kawran Bazar Farmgate - Jahangir gate - Bijoy Sarani - Mohakhali - Gulshan 1 - Gulshan 2 - Notun bazar
+
+</string>
+
+    <string name="No8">
+
+Jatrabari - Janapath Moor - Sayedabad - Motijhil - Dainik Bangla Moor - Paltan - Press club - Matsya Bhaban - High Court - Shahbagh - Bangla Mototr Moor - Kawran Bazar - Farmgate -  Khamar Bari - Asad Gate - College Gate - Shishu Mela - Shyamoli - Kallaynpur - Technical - Gabtoli
+
+</string>
+
+    <string name="No9">
+
+College Gate - Shishu Mela - Shaymoli - Kallyanpur - Darussalam - Technical - Bangla College - Tolarbag - Ansar camp - Mirpur 1 - Sony Cinema Hall - Mirpur 2 - Proshika - Pallabi - Mirpur 12
+
+</string>
+    //9
+    <string name="Pallabi">
+
+Asad Gate - College - Shishu Mela - Shaymoli - Kallayanpur - Technical - Mirpur 1 - Sony Cinema Hall - Mirpur 2 - Chalantika - Mirpur 6 - Mirpur 11 - Mirpur 12
+
+</string>
+
+    <string name="PallabiSuper">
+
+Gabtoli - Technecal - Ansar camp - Mirpur 1 - Sony Cinema Hall - Mirpur 2 - Mirpur 10 - Mirpur 11 - Purobi - Kalshi - ECB - MES - Shewra - Kuril - Khilkhet - Airport - Jashimuddin - Rajlakshmi - Azampur - House Building - Abduallahpur - Kamarpara
+
+</string>
+
+    <string name="Projapoti">
+
+Bosila - Mohammadpur - Asad gate - College gate - Shaymoli - Kallayanpur - Darussalam - Technocal - Bangla College - Ansar camp - Mirpur 1 - Mirpur 2 - Mirpur 10 - mirpur 11 - Purabi - Kalshi - ECB - MES - Shewra - kuril - Khilkhet - Airport - Jashimuddin - Rajlakshmi - Azampur - House Building - Abduallahpur - Kamarpara
+
+</string>
+    //3
+    //r
+    <string name="Rajanigandha">
+
+Chittagong Road - Sign Board - Matuail - Rayerbag - Soni Akhra - Jatrabari - Sayedabad- Gulisthan - GPO - Paltan - Press club - High Court - Shahbag - Katabon - Bata Signal - Science Lab - City College - Jigatola - Dhanmondi 15 - Star Kabab - Shankar - Dhanmondi 27 - Mohammadpur
+
+</string>
+
+    <string name="Ramjan">
+
+Gabtoli - Technical - kallyanpur - Shaymoli - Shishu Mela - College gate - Asad gate - Mohammadpur - Shankar - Star kabab - Dhanmondi 15 - Jigatola - City College - Science Lab - Bata Signal - Katabon - Shahbagh - Matsya Bhaban - kakrail - Shantinagar - Malibagh Moor - Mouchak - Malibagh Railgate - Hazipara - Rampura Bazar - Banasree - Demra Staff Quarter
+
+</string>
+
+    <string name="Robrob">
+
+Gabtoli - Technical - Ansar camp - Mipur 1 - Mirpur 2 - Mirpur 10 - Purobi - kalshi - ECB - MES - Banani - kakali - Gulshan 2 - Gulshan 1 - Badda Link Road - Merul - Rampura Bridge - Banasree
+
+</string>
+
+    //3
+    //s
+    <string name="Salsabil">
+
+Postogola - Dholaipar - jatrabari - Sayedabad - Mughdapara - Bashabo - khilgaon - Malibagh - Rampura Bazar - Merul - Badda - Uttor Badda - Bashtola - Notun Bazar - Nadda - Bashundhara - jamuna Future Park - Kuril - Khilkhet - Airport - Joshimuddin - Rajlakshmi - Azampur - House Building - Abdullahapur - Tongi - Station Road - Mill Gate - Board Bazar - Gazipur Bypass - Gazipur Chourasta
+
+</string>
+
+    <string name="SavarParibahan">
+
+Sadarghat - Gulistan - GPO - Paltan - Press CLub - High Court - Matsya bhaban - Shahbagh - Science Lab - kalabaagn - Dhanmondi 32 - Dhanmondi 27 - Asad Gate - College Gate - Shishu Mela - Shaymoli - Kallayanpur - Darussalam - Technical - Gabtoli - Amin Bazar - Hemayetpur - Savar - Baipayl - Zirani Bazar - Nandon Park
+
+</string>
+
+    <string name="Shadhin">
+
+Mohammadpur - Asad Gate - Khamar Bari - Farm Gate - Bangla Motor - Moghbazar - Mouchak - Malibagh - Rampura Bazar - Banasree - Demra Staff Quarter
+
+</string>
+
+    <string name="SavarParibahan2">
+
+Sadarghat - Gulistan - GPO - Paltan - Press CLub - High Court - Matsya bhaban - Shahbagh - Science Lab - kalabaagn - Dhanmondi 32 - Dhanmondi 27 - Asad Gate - College Gate - Shishu Mela - Shaymoli - Kallayanpur - Darussalam - Technical - Gabtoli - Amin Bazar - Hemayetpur - Savar - Baipayl - Zirani Bazar - Nandon Park
+
+</string>
+    //4
+    //t
+    <string name="TarangaPlus">
+
+Mohammadpur - Shankar - Star Kabab - Dhanmondi 15 - Jigatola - City College - Science Lab - Bata Signal - Katabon - Shahbagh - Matsya Bhaban - kakrail - Shantinagar - Malibagh Moor - Mouchak - Malibagh Railgate - Hazipara - Rampura Bazar - Rampura Bridge - Banasree - South Basabo
+
+</string>
+
+    <string name="Thikana">
+
+Sign Board - Matuail - Rayerbag - Soni Akhra - Jatrabari - Sayedabad - Gulisthan - Chankhar Pul - Bakshi Bazar - Dhakeshwari - Azimpur - Nilkhet - New Market - Science lab - Kalabagan - Dhanmondi 32 - Dhanmondi 27 - Asad Gate - College Gate - Shishu Mela - Shaymoli - kallyanpur - Darussalam - Technical - Gabtoli - Amin Bazar - Hemayetpur - Savar - Baipayl - Zirani Bazar - Nondon Park - Chandra
+
+</string>
+
+    <string name="Titas">
+
+Chiriyakhana - Mirpur 1 - gabtoli - Savar - Nabinagar - Chandra
+
+</string>
+
+    <string name="Trust">
+
+Mirpur 10 - Mirpur 13 - Mirpur 14 - Kachukhet - Workshop - Saudi Colony - Jahangir Gate - Farmgate - Kawran Bazar - Bangla Motor - Shahbagh
+
+</string>
+    //4
+    v//
+    <string name="VIP27">
+
+Azimpur - Nilkhet - New Market - Science Lab - Kalabagan - Dhanmondi 32 - Dhanmondi 27 - Khamar Bari - Farmgate - Mohakhali - Khilkhet - Airport - Banani - Kakali - MES - Shewra - Kuril - Jashimudiin - Rajlakshmi - Azampur - House Building - Abdullahpur - Tongi - Station Road - Mill Gate - Board Bazar - Gazipur Chowrasta
+
+</string>
+    //1
+    w//
+    <string name="Welcome">
+
+Nondan Park - Zirani Bazar - Baipayl - Nobinagar - Savar - Hemayetpur - Amin Bazar - Gabtoli - Technical - Kallyanpur - Shaymoli - Shishu Mela - College Gate - Asad Gate - Khamar Bari - Farmgate - Kawran Bazar - Bangla Motor - Shahbagh - High Court - Press Club - Paltan - GPO - Gulisthan - Motijhil
+
+</string>
+
+    <string name="Winner">
+
+Azimpur - Eden College - Nilkhet - New Market - Science Lab - Kalabagan - Panthapath - Kawran Bazar - Bangla Motor Moor - Bot Tola - Nabisco - Mohakhali - Wireless - Gulshan 1 - Badda - Link Road - Uttar Badda - Shahjadpur - Bashtola - Natun Bazar - Nadda - Bashundhara - jamuna Future Park - Kuril
+
+</string>
+    //2
+
+    //features1
+    <string name="features1">
+        (1)Type TR(space)train no/code send to 16318
+    </string>
+    <string name="features2">
+        (2)Train Number can be found in Train Ticket
+    </string>
+    <string name="features3">
+        (3)Charge BDT 4*VAT SD and sc applicable
+    </string>
+
+    <string name="features4">
+        (1)Travellers can get current location of a train in real time within 5 second.
+    </string>
+    <string name="title_activity_google_map_navigator">GoogleMapNavigator</string>
+
+</resources>
